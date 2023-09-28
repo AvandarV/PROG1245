@@ -1,0 +1,14 @@
+/*Name: Avandar Villeneuve
+Student#:8933384
+*/
+body{
+   height: 100vh;
+   width: 100vw;
+   background-color: hsla(161, 48%, 70%, 0.4); 
+   font: normal, normal, normal 12px/1.5
+}
+h2{
+    color: #cb0;
+    font-size: 2rem;
+    
+}
