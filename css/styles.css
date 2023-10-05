@@ -12,3 +12,37 @@ h2{
     font-size: 2rem;
     
 }
+main{
+    float: left;
+    width: 400px;
+    background-color: hsl(0, 50%, 50%);
+}
+aside{
+    float: right;
+    width: 400px;
+    background-color: hsl(0, 50%, 50%);
+}
+.structural{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+#specialHeading{
+    color: rgb(128, 0, 255);
+}
+header{
+    background-color: hsl(0, 50%, 50%);
+}
+footer{
+    background-color: hsl(0, 50%, 50%);
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+}
+a:hover{
+    color: #fff 
+}
+footer p{
+    font-size: smaller;
+}
