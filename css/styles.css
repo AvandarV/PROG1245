@@ -55,12 +55,24 @@ footer p{
 ul{
     list-style-type: square;
 }
-nav, li, a{
-    color: rgba(39,41,1,0.8);
-    line-height: 2em;
-    padding: 1rem
-    border 0.1em solid black;
-}
+nav ul li {
+    display: inline;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color: indigo;
+    border: 0.25em solid indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav ul li a:hover {
+    color: cornsilk;
+    background-color: indigo;
+    border-color: cornsilk;
+  }
 form{
     border-width: 0.5rem;
     border: dashed;
@@ -104,8 +116,8 @@ section{
     column-gap: 1rem;
 }
 img{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
 }
 figure{
     border: 0.25em solid black;
